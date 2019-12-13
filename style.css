@@ -66,3 +66,17 @@ header img {
 .cd span.year {
     color: grey;
 }
+
+/* Select & support classes */
+
+select {
+    padding: 5px 15px;
+    margin-top: 25px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.non_active {
+    display: none;
+}
